@@ -15,6 +15,7 @@ public class Mycontroller {
     @RequestMapping("aa")
     @ResponseBody
     public  String aa(){
+        System.out.println("你好；我来啦！等我~~~");
         return "aa";
     }
 }
