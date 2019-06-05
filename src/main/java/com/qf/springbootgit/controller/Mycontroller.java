@@ -16,6 +16,7 @@ public class Mycontroller {
     @ResponseBody
     public  String aa(){
         System.out.println("你好；我来啦！等我~~~");
+        System.out.println("翠花儿宝贝！！！");
         return "aa";
     }
 }
